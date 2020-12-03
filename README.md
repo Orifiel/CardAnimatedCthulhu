@@ -12,7 +12,7 @@ Conteudo abordado:
 - flexbox
 - uso de fontes externas para o texto (google fonts).
 
-## Trativa de eventos com Javascript
+## Tratativa de eventos com Javascript
 - queryselector
 - addEventListener
 - funções callback
