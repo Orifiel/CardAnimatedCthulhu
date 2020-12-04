@@ -1,7 +1,9 @@
 # CardAnimatedCthulhu
-Card animado, utilizando apenas CSS e Javascript
 
-##Estudo sobre animações com CSS e Javascript
+
+## Estudo sobre animações com CSS e Javascript
+
+![](https://github.com/Orifiel/CardAnimatedCthulhu/blob/master/assets/Peek%2003-12-2020%2001-22.gif)
 
 Conteudo abordado:
 
