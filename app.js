@@ -7,7 +7,7 @@ const title = document.querySelector('.title')
 const sneaker = document.querySelector('.sneaker img')
 const logo = document.querySelector('.logo img')
 
-const text = document.querySelector('span')
+const text = document.querySelector('.description')
 
 
 
@@ -22,6 +22,7 @@ container.addEventListener('mouseenter', e => {
     title.style.transform = 'translateZ(100px)'
     sneaker.style.transform = 'translateZ(150px)'
     logo.style.transform = 'translateZ(100px)'
+    text.style.transition = "all 0.5s ease-in"
     text.style.display = 'inline'
 })
 
@@ -32,7 +33,7 @@ container.addEventListener('mouseleave', e => {
     sneaker.style.transform = 'translateZ(0px)'
     logo.style.transform = 'translateZ(0px)'
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
-    text.style.transition = "all 0.5s ease-in"
+    text.style.transition = "all 0.5s ease-out"
     text.style.display = 'none'
 
 })
