@@ -21,9 +21,10 @@ container.addEventListener('mouseenter', e => {
     card.style.transition = "all 0.5s ease-out"
     title.style.transform = 'translateZ(100px)'
     sneaker.style.transform = 'translateZ(150px)'
-    logo.style.transform = 'translateZ(100px)'
+    sneaker.style.transition = 'all 0.5s ease-out'
+    logo.style.transform = 'translateZ(50px)'
     text.style.transition = "all 0.5s ease-in"
-    text.style.display = 'inline'
+    text.style.transform = 'translateZ(50px)'
 })
 
     //Card e itens retornam a posição original
@@ -34,6 +35,7 @@ container.addEventListener('mouseleave', e => {
     logo.style.transform = 'translateZ(0px)'
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     text.style.transition = "all 0.5s ease-out"
-    text.style.display = 'none'
+    text.style.transform = 'translateZ(0px)'
+    
 
 })

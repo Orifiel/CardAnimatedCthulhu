@@ -10,16 +10,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    perspective: 800px; /*da a perspectiva da visão enquanto movimenta*/
+    perspective: 2500px; /*da a perspectiva da visão enquanto movimenta*/
 }
 .container {
     
     width: 50vw;
-    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    transform-style: preserve-3d; 
 
 }
 .card{
@@ -37,7 +36,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease;
+    /* transition: all 0.5s ease; */
 }
 
 .sneaker img{
@@ -49,7 +48,7 @@ body {
 .info{
     display: flex;
     flex-direction: column;
-    transition: all 0.5s ease;
+    /* transition: all 0.5s ease; */
 }
 
 .info h1 {
@@ -67,10 +66,6 @@ body {
     color: rgb(255, 255, 255);
     flex-wrap: wrap;
     text-align: center;
-    display: none;
-    
-    
-    
 }
 
 .info .description strong{
